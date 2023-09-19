@@ -369,8 +369,8 @@ img {
     letter-spacing: 0.02em;
 }
 
-.portfolio-card:hover .portfolio-overlay {
-    transform: translateY(0);
+.portfolio-item:hover .portfolio-overlay {
+    transform: translateY(0%);
     
 }
 
