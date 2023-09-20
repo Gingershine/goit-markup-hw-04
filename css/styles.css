@@ -109,16 +109,14 @@ address {
 .current::after {
     display: block;
     left: 0;
-    bottom: -1px;
-    height: 4px;
+    bottom: -1px;    
     border-radius: 2px;
     transform: translateY(100%);
     position: absolute;
     width: 100%;
     height: 4px;
     background-color: #404BBF;
-    content: '';
-    bottom: 0;
+    content: '';    
 }
 
 .nav-link:hover::after {
@@ -273,8 +271,8 @@ img {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
-.team-item:hover .member-link, 
-.team-item:focus .member-link {
+.member-link:hover, 
+.member-link:focus {
     background-color: #404BBF;
 }
 
